@@ -1,0 +1,10 @@
+answer = input("please say hi ")
+while answer != "hi":
+    answer = input("Rude. Say hi....")
+print("Thank you")
+import random
+number = random.randint(0,100)
+check = int(input("enter your lucky number: "))
+while number == check:
+    number != check
+print("Better next time")
