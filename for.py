@@ -1,3 +1,2 @@
-x = (10, 20, 30, 40)
-for var in x:
-    print("index "+ str(x.index(var)) + ":" , var)
+for num in range(0,10,+1):
+    print(num)
